@@ -1,0 +1,70 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:               chihuahua_02.jpg  label:                  chihuahua
+ 2 key:                     mug_01.jpg  label:                        mug
+ 3 key:                    frog_01.jpg  label:                       frog
+ 4 key:               chihuahua_01.jpg  label:                  chihuahua
+
+     MATCH:
+
+              chihuahua_02.jpg: 
+Real:                  chihuahua   Classifier:                      chihuahua
+
+                    mug_01.jpg: 
+Real:                        mug   Classifier:                     coffee mug
+
+                   frog_01.jpg: 
+Real:                       frog   Classifier:           tree frog, tree-frog
+
+              chihuahua_01.jpg: 
+Real:                  chihuahua   Classifier:                      chihuahua
+
+ NOT A MATCH:
+
+# Total Images 4 # Matches: 4 # NOT Matches: 0
+
+     MATCH:
+
+              chihuahua_02.jpg: 
+Real:                  chihuahua   Classifier:                      chihuahua  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    mug_01.jpg: 
+Real:                        mug   Classifier:                     coffee mug  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                   frog_01.jpg: 
+Real:                       frog   Classifier:           tree frog, tree-frog  
+PetLabelDog: 0  ClassLabelDog: 0
+
+              chihuahua_01.jpg: 
+Real:                  chihuahua   Classifier:                      chihuahua  
+PetLabelDog: 1  ClassLabelDog: 1
+
+ NOT A MATCH:
+
+# Total Images 4 # Matches: 4 # NOT Matches: 0
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed: 100.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed: 100.0
+Summary of RESNET Model Architecture
+    Number of images: 4
+    Number of dog images: 2
+    Number of 'Not a' dog images: 2
+Percentage calculations 
+    pct_correct_dogs: 100.0
+    pct_correct_notdogs: 100.0
+    pct_correct_breed: 100.0
+    pct_match: 100.0
+
+** Total Elapsed Runtime: 0:1:21
