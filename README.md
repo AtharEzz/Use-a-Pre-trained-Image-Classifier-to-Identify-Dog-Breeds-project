@@ -8,3 +8,7 @@ Some dog breeds bear a striking resemblance to each other. The algorithm's abili
 Note: You might need to install the libraries used in the project by running:
 
 pip install package-name (replacing package name with the actual package name) in the (command prompt)
+pip install torchvision
+pip install classifier
+
+
